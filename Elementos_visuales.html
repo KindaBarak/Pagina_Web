@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../Pagina Web/favicon.ico" type="image/x-icon">
+    <title>Blindados de la WW2</title>
+</head>
+
+<style>
+    body {
+        font-family: "Lucida Console", "Courier New", monospace;
+        background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+        padding: 0;
+        margin: 0;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover:not(.active) {
+        background-color: #111;
+    }
+
+    .active {
+        background-color: #04AA6D;
+    }
+
+    h1 {
+        background-color: black;
+        padding: 10px;
+        margin: 0;
+        color: #035e07;
+    }
+
+    div.gallery {
+        margin: 5px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 33vw;
+    }
+
+    div.gallery:hover {
+        border: 1px solid #0b3008;
+    }
+
+    div.gallery img {
+        width: 100%;
+        height: auto;
+    }
+
+    div.desc {
+        padding: 15px;
+        text-align: center;
+    }
+
+    .centrado {
+        display: flex;
+        justify-content: center;
+    }
+    .footer {
+        background-color: #333;
+        color: #FFF;
+        padding: 10px;
+        text-align: center;
+        clear: both;
+    }
+</style>
+
+<body>
+
+    <h1>El periodo temprano</h1>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Index.html">Inicio</a></li>
+                <li><a href="Informacion.html">informacion</a></li>
+                <li><a class="active" href="Elementos_visuales.html">Visualizacion</a></li>
+                <li><a href="Contacto.html">contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="centrado">
+        <iframe width="1450" height="1200" src="https://www.youtube.com/embed/x-SqFcbDyoU?si=3zdU29I0ovuBYC5Z"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+        </iframe>
+    </div>
+
+    <section class="centrado">
+        <div class="gallery">
+            <a href="../Pagina Web/assets/T-34-85L.jpg" target="_blank"><img src="../Pagina Web/assets/T-34-85L.jpg"
+                    alt="T-34" width="600"></a>
+            <div class="desc">T-34 de camino a Alemania, 1944</div>
+        </div>
+        <div class="gallery">
+            <a href="../Pagina Web/assets/mbt.jpg" target="_blank"><img src="../Pagina Web/assets/mbt.jpg" alt="Tanque MBT" width="600"></a>
+            <div class="desc">Tanque MBT britanico en Europa, 1944</div>
+        </div>
+        <div class="gallery">
+            <a href="../Pagina Web/assets/tigerII.jpg" target="_blank"><img src="../Pagina Web/assets/tigerII.jpg" alt="TigerII" width="600"></a>
+            <div class="desc">Tanques Tiger II en Francia</div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p> derechos de autor: KindaBarak &copy; 2023</p>
+    </footer>
+    
+    
+    </body>
+    </html>
